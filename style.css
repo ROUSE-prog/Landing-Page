@@ -1,0 +1,130 @@
+html,body{
+    display: flex;
+    height: 100%;
+    margin: 0%;
+    flex-direction: column;
+}
+
+.Body {
+    display: flex;
+    flex-direction: column;
+}
+
+.Headerc {
+ background-color:maroon;
+ display: flex;
+ flex-direction:column;
+ padding: 16px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+    font-size: 20px;
+    color: #F8F4E3;
+}
+ .header-content{
+    display: flex;
+    justify-content: space-between ;
+    padding: 8px;
+}
+
+.header-text{
+    
+    color: #F8F4E3;
+}
+
+ul{
+    display: flex;
+    gap: 16px;
+    list-style: none;
+}
+ 
+li{
+    justify-content: flex-end;
+}
+
+.center-content{ 
+    display:flex;
+    justify-content: center;
+    gap: 8px;
+    flex-direction: column ;
+    align-items: center;
+    background-color:mediumblue;
+    padding: 16px;
+    min-height: 70%;
+}
+
+.synth-items{
+    display: flex;
+    flex-direction: row;
+}
+
+.gif-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: yellow;
+    min-height: 50%;
+}
+
+.more-info{
+    min-height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgreen;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    color:##F8F4E3;
+    flex: 0;
+}
+
+.text{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 8px;
+    font-weight: bold;
+    color: #F8F4E3;
+}
+
+img{
+    max-height: 100px;
+    min-height: 100px;
+    max-width: 100px;
+    min-width: 100px;
+    padding: 8px;
+}
+
+headerimg{
+    display: flex;
+   
+}
+
+.Headerc, .footer{
+    background-color: #233D4D;
+}
+
+.center-content{
+    background-color: #F8F4E3;
+}
+
+.gif-content{
+    background-color:#FFBE5C;
+}
+
+.more-info{
+    background-color:#F8F4E3;
+}
+
+
+p{
+    display: flex;
+    flex-wrap: wrap;
+}
+Next task: Colors and fonts!
